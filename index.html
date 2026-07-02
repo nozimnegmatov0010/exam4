@@ -11,9 +11,9 @@
 <body>
 
     <header class="flex justify-between lg:flex-col p-[30px] max-w-[1300px] m-auto">
-        <img class="lg:hidden" src="./src/nmkimages/logo (14).png" alt="">
+        <img class="lg:hidden w-40" src="./src/nmkimages/logo (14).png" alt="">
         <div class="hidden lg:flex justify-between items-center">
-            <img src="./src/nmkimages/logo (14).png" alt="">
+            <img  src="./src/nmkimages/logo (14).png" alt="">
             <p>8 (495) 926-06-03</p>
             <p>info@gormedcentre.ru <br> Заказать звонок</p>
             <p>г. Мытищи, <br> ул.Рождественская, д.7</p>
@@ -39,7 +39,10 @@
                 <button class="p-[14px] text-[white] bg-[#00578A] rounded-[10px]">Запись на приём</button>
             </div>
         </div>
-        <p class="text-[30px] lg:hidden">☰</p>
+        <div class="flex gap-3">
+            <img class="lg:hidden w-10" src="./src/nmkimages/call.png" alt="">
+            <p class="text-[30px] lg:hidden">☰</p>
+        </div>
     </header>
 
 
@@ -96,7 +99,7 @@
             <div class="w-full max-w-[350px]">
                 <h1 class="text-white text-[32px] leading-[38px] font-bold">
                     Позаботьтесь о своём здоровье </h1>
-                 <p class="mt-4 text-white text-[16px] leading-[24px]">
+                <p class="mt-4 text-white text-[16px] leading-[24px]">
                     Осуществляем комплексное медицинское обслуживание населения: консультации и амбулаторное лечение у
                     специалистов всех направлений, медицинские обследования и диагностические процедуры.
                 </p>
@@ -242,7 +245,7 @@
     </div>
 
 
-    
+
     <section class="max-w-[1100px] m-auto">
 
         <div class="flex flex-row items-center p-[30px]">
@@ -250,7 +253,8 @@
             <div>
                 <h2 class="text-[30px] text-center lg:text-start lg:text-[40px] font-bold">Немного о нашем <br>
                     медицинском центре</h2> <br>
-                <p class="lg:w-[90%] text-[13px] leading-relaxed">Многопрофильное амбулаторно-поликлиническое учреждение для детей
+                <p class="lg:w-[90%] text-[13px] leading-relaxed">Многопрофильное амбулаторно-поликлиническое учреждение
+                    для детей
                     и взрослых в городе Мытищи. Мы предоставляем платные медицинские услуги и занимаем лидирующие
                     позиции среди медицинских учреждений города Мытищи. У нас ежегодно обслуживаются более
                     150000 пациентов.</p>
@@ -305,40 +309,110 @@
     </section>
 
 
+    <section class="max-w-[1100px] mx-auto px-4">
 
-   
+        <div class="flex justify-between items-center mt-[30px]">
+            <p class="text-[38px] lg:w-100 font-bold">Популярные услуги</p>
+            <img class="hidden lg:flex" src="./src/nmkimages/Slider Buttons.png" alt="">
+        </div>
+
+        <div class="flex overflow-auto  gap-[30px] mt-[30px] ">
+            <div class="min-w-[300px] w-[300px] lg:min-w-0 lg:w-[23%] -0 bg-[#F0F6F9] h-[370px] lg:h-[340px]">
+                <img class="w-full" src="./src/nmkimages/image (23).png" alt="">
+                <div class="p-5">
+                    <p class="text-[12px] lg:text-[14px] font-bold">
+                        Магнитно-резонансная <br> томография (МРТ)
+                    </p>
+                    <button class="w-full mt-4 bg-[#00578A] text-white text-[12px] font-bold rounded-[5px] py-2">
+                        Записаться
+                    </button>
+                </div>
+            </div>
+
+            <div class="min-w-[300px] w-[300px] lg:min-w-0 lg:w-[23%] bg-[#F0F6F9] h-[370px] lg:h-[340px]">
+                <img class="w-full" src="./src/nmkimages/image (24).png" alt="">
+                <div class="p-5">
+                    <p class="text-[14px] font-bold">Гастроскопия</p>
+                    <button class="w-full mt-10  bg-[#00578A] text-white text-[12px] font-bold rounded-[5px] py-2">
+                        Записаться
+                    </button>
+                </div>
+            </div>
+
+            <div class="min-w-[300px] w-[300px] lg:min-w-0 lg:w-[23%] shrink-0 bg-[#F0F6F9] h-[370px] lg:h-[340px]">
+                <img class="w-full" src="./src/nmkimages/image (25).png" alt="">
+                <div class="p-5">
+                    <p class="text-[14px] font-bold">Прием гинеколога</p>
+                    <button class="w-full mt-10 bg-[#00578A] text-white text-[12px] font-bold rounded-[5px] py-2">
+                        Записаться
+                    </button>
+                </div>
+            </div>
+
+            <div class="min-w-[300px] w-[300px] lg:min-w-0 lg:w-[23%] shrink-0 bg-[#F0F6F9] h-[370px] lg:h-[340px]">
+                <img class="w-full" src="./src/nmkimages/image (26).png" alt="">
+                <div class="p-5">
+                    <p class="text-[14px] font-bold">
+                        Лабораторная <br> диагностика
+                    </p>
+                    <button class="w-full mt-4 bg-[#00578A] text-white text-[12px] font-bold rounded-[5px] py-2">
+                        Записаться
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="max-w-[1100px] mx-auto px-4 py-10">
+        <h2 class="text-[40px] font-bold mb-8">Акции</h2>
+
+        <div class="flex gap-[30px] justify-between overflow-x-auto lg:overflow-visible">
+
+            <div
+                class="min-w-[520px]  lg:w-[540px] h-[380px] rounded-[24px] bg-gradient-to-r from-[#0074B8] to-[#00BAC6] flex overflow-hidden ">
+
+                <div class="flex flex-row">
+
+                    <div class="p-[40px] flex flex-col items-start">
+                        <h1 class="bg-[#65EAE5] p-[7px] text-[12px] font-bold rounded-[10px]">до 30 сентября 2023</h1>
+
+                        <p class="text-[25px] font-bold text-white mt-auto"><span class="text-[50px]">-20%</span> <br>
+                            биоревитацию Hualuform</p>
+                    </div>
+                    <img src="./src/nmkimages/image (27).png" alt="">
+
+                </div>
+
+            </div>
 
 
 
 
+            <div
+                class="min-w-[520px] lg:w-[540px] h-[380px] rounded-[24px] bg-gradient-to-r from-[#0074B8] to-[#00BAC6] flex overflow-hidden">
+
+
+                <div class="flex flex-row">
+
+                    <div class="p-[40px] flex flex-col items-start">
+                        <h1 class="bg-[#65EAE5] p-[7px] text-[12px] font-bold rounded-[10px]">до 30 сентября 2023</h1>
+
+                        <p class="text-[25px] font-bold text-white mt-auto"><span class="text-[50px]">-20%</span> <br>
+                            биоревитацию Hualuform</p>
+                    </div>
+                    <img src="./src/nmkimages/image (27).png" alt="">
 
 
 
+                </div>
 
+            </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        </div>
+    </section>
 
     <div class="flex-col max-w-[90%] lg:max-w-[1100px] m-auto ">
 
